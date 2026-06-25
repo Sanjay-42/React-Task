@@ -27,6 +27,7 @@ import UserList from "./UseParamsHook/UserList";
 // import ContactUs from "./Practice/Navbars/ContactUs";
 import MiniChatApp from "./component/MiniChatApp";
 import UseSearchParamHook from "./component/UseSearchParamHook";
+import UserTable from "./component/UserTable";
 
 export const Data = createContext();
 
@@ -115,7 +116,9 @@ export default function App() {
 
       {/* <UseSearchParamHook/> */}
 
-        <APIIntegrationException/>
+      {/* <APIIntegrationException/> */}
+
+      <UserTable/>
     </div>
   );
 }
